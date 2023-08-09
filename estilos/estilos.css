@@ -1,0 +1,66 @@
+body{
+	font-family: sans-serif;
+	padding: 90px 20px 0;
+	}
+.fondoU{
+	height: 100vh;
+	position: relative;
+	background-image: linear-gradient(
+	rgba(0,0,0,0.5),
+		rgba(0,0,0,0.5)),
+	url(../imagenes/fondo.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.casita{
+	background-color: darkblue;
+	height: 80px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left; 0%;
+	right: 0%;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-link{
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 40px;
+	line-height: 80px;
+}
+
+.nav-menu{
+	display: flex;
+	margin-right: 40px;
+	list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item{
+	font-size: 18px;
+	margin: 0 10px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+.nav-menu-link{
+	padding: 8px 12px;
+	border-radius: 3px;
+	
+}
+
+.nav-menu-link:hover{
+	background-color: #816AFF;
+	transition: 0.5s;
+	
+}
